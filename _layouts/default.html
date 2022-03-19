@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- Games page layout -->
+
+<html lang = "en-US">
+  
+  {% include head.html %}
+  <link rel = "stylesheet" property = "stylesheet" href = "assets/css/default.css">
+
+  <body>
+	{% include header.html %}
+	
+	<link rel = "stylesheet" property = "stylesheet" href = "assets/css/main.css">
+	<div class = "cell" id = "games-wrapper">
+		{{ content }}
+	</div>
+	
+	{% include footer.html %}
+  </body>
+
+</html>

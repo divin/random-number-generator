@@ -1,0 +1,32 @@
+name: "Divin"
+title: "Loading..."
+description: >- # this means to ignore newlines until "baseurl:"
+  "Game Description"
+baseurl: ""
+url: "https://divin.work"
+
+# Variables
+privacy: "Terms & Privacy Policy" # Name of the "Terms & Privacy Policy" link (German: Datenschutzerklärung)
+impress: "Impress" # Name of the "Impress" link (German: Impressum)
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

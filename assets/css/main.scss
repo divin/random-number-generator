@@ -1,0 +1,27 @@
+---
+---
+
+// Main style for the content
+
+@import 'colors';
+
+#games-wrapper {
+	display: flex;
+  	justify-content: center;
+	align-items: center;
+
+	margin-top: 6vh;
+	margin-bottom: 5vh;
+	padding: 1rem;
+	background-color: $games_color;
+
+	.canvas {
+		padding-left: 0;
+    	padding-right: 0;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+		max-width: 512px;
+		max-height: 512px;
+	}
+}

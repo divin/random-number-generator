@@ -1,0 +1,5 @@
+This is another side project I'm working on in my free time with the code name OL-DI. I try to make my own version of the popular but expensive [OP-1 by Teenage Engineering](https://teenage.engineering/products/op-1). I'm still in the prototyping stage and don't have anything good looking or good working yet. As soon as I reach a stage which is worth showing I'll update this page and probably put some updates to my social media platforms. In the mean time stay tuned! 📻
+
+| ![arduino](assets/images/arduino.jpg) | 
+|:--:| 
+| *Photo by <a href="https://unsplash.com/@sahandbabali?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sahand Babali</a> on <a href="https://unsplash.com/s/photos/microcontroller?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>* |

@@ -1,0 +1,40 @@
+---
+---
+
+// Style of the footer for all pages
+
+@import 'colors';
+
+footer {
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: $back_color;
+	margin-bottom: 5vh;
+	
+	ul {
+		padding: 0;
+		width: 100%;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		list-style: none;
+	}
+		
+	li {
+		margin: 0 1.5rem 0 0;
+	}
+		
+	.footer-item {
+		padding: 0.2rem;
+	}
+	
+	i {
+		font-size: 1.0rem;
+	}
+}

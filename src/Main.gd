@@ -40,7 +40,7 @@ func _ready() -> void:
 		self.set_language("en")
 	
 	var _error : int
-	_error = self.current_seed.connect("changed", self, "_on_seed_changed")
+	_error = self.current_seed.connect("value_changed", self, "_on_seed_changed")
 	_error = self.switcher.connect("pressed", self, "_on_switcher_pressed", [self.switcher])
 	_error = self.seed_button.connect("pressed", self, "_on_seed_pressed")
 	_error = self.generate_button.connect("pressed", self, "_on_generate_pressed")
@@ -82,7 +82,7 @@ func _on_switcher_pressed(button : CheckButton) -> void:
 	else:
 		self.language = "en"
 
-func _on_seed_changed() -> void:
+func _on_seed_changed(_value) -> void:
 	# Assing seed
 	self.random.seed = int(self.current_seed.value)
 

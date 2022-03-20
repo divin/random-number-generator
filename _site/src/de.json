@@ -1,11 +1,11 @@
 {
 	"title" : "Reproduzierbarer Losnummer Generator für Mein-Grundeinkommen.de",
 	"description" : [
-		"Dies ist ein kleiner Prototyp, wie man eine Losnummer zufällig und reproduzierbar erzeugt.",
+		"Dies ist ein kleiner Prototyp, wie man eine oder mehrere Losnummer zufällig und reproduzierbar erzeugt.",
 		"Dazu gehen Sie wie folgt vor:",
 		"1) Zunächst wird ein Seed angelegt, der manuell eingegeben oder über den Button 'Generiere Seed' zufällig erzeugt werden kann.",
 		"2) Danach geben Sie die höchste Losnummer ein, jede Nummer pro Feld.",
-		"3) Durch Drücken des Buttons 'Generiere Losnummer' wird eine zufällige Losnummer erzeugt.",
+		"3) Durch Drücken des Buttons 'Generiere Losnummer' wird eine zufällige Losnummer erzeugt. Durch erneutes drücken wird eine weitere Losnummer erzeugt, dies kann bliebig oft wiederholt werden.",
 		"4) Der Seed kann nun verwendet werden, um die Losung der Losnummer zu reproduzieren."
 	],
 	"seed_button" : "Generiere Seed",

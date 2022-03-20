@@ -5,7 +5,7 @@
 		"To do this, proceed as follows:",
 		"1) First, create a seed, which can be entered manually or randomly generated using the 'Generate Seed' button.",
 		"2) Then, enter the highest lot number, each number per field.",
-		"3) Press the 'Generate Lot Number' button to generate a random lot number.",
+		"3) By pressing the button 'Generate lot number' a random lot number is generated. By pressing the button again, another lot number is generated, this can be repeated as often as required.",
 		"4) The seed can now be used to reproduce the generation of the lot number. "
 	],
 	"seed_button" : "Generate Seed",

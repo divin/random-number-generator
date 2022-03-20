@@ -2,7 +2,7 @@
 * 👨🏼‍💻 [Source Code](https://github.com/divin/random-number-generator/tree/master/src)
 * 🛠 [Build](https://github.com/divin/random-number-generator/tree/master/build)
 
-Rest is for code for the website.
+Rest is code for the website.
 
 ## 🇬🇧 Random number generator for [Mein-Grundeinkommen](https://www.mein-grundeinkommen.de)
 

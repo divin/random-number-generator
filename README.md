@@ -1,4 +1,4 @@
-* 🎮 [Live Demo](https://divin.work/Number-Generator/)
+* 🎮 [Live Demo](divin.work/random-number-generator/)
 * 👨🏼‍💻 [Source Code](https://github.com/divin/random-number-generator/tree/master/src)
 * 🛠 [Build](https://github.com/divin/random-number-generator/tree/master/build)
 

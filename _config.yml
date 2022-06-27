@@ -1,17 +1,48 @@
-name: "Divin"
-description: >- # this means to ignore newlines until "baseurl:"
-  "Game Description"
-baseurl: ""
-url: "https://divin.work"
+name: "Divin" # name of author
+baseurl: "/random-number-generator" # the subpath of your site, e.g. /blog
+title: "divin.work" # the name of your site, e.g. ACME Corp.
+site-end-name: "Divin" # name which is shown at the site end ("YEAR © SITE-END-NAME")
+url: "https://divin.work" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Variables
-privacy: "Terms & Privacy Policy" # Name of the "Terms & Privacy Policy" link (German: Datenschutzerklärung)
-impress: "Impress" # Name of the "Impress" link (German: Impressum)
+# Spline settings
+use-spline: false
+spline-url: "https://my.spline.design/molang3dcopy-965106cc85363e3f44f7f3377f92e349/"
+
+# Image path
+image-url: "assets/image/profile.JPG"
 
 # Build settings
 markdown: kramdown
 sass:
     style: :compressed
+
+# List of social media accounts
+social-media:
+  - name: GitHub
+    url: https://github.com/divin
+    icon: fab fa-github
+  - name: Itch.io
+    url: https://divinwork.itch.io
+    icon: fab fa-itch-io
+  - name: Soundcloud
+    url: https://soundcloud.com/divinwork
+    icon: fab fa-soundcloud
+  - name: BandCamp
+    url: https://divin.bandcamp.com/
+    icon: fab fa-bandcamp
+  - name: YouTube
+    url: https://www.youtube.com/channel/UCA5EYbFlu6q915Y4wRjKNiw
+    icon: fab fa-youtube
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/divin-gavran
+    icon: fab fa-linkedin
+
+# List of name & links for the site end
+site-end:
+  - text: "Terms & Privacy Policy"
+    url: "/privacy"
+  - text: Impress
+    url: "/impress"
 
 # Excluded items
 exclude:
@@ -27,8 +58,6 @@ exclude:
 
 # Plugins
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-remote-theme
 
-remote_theme: divin/Urusai
+remote_theme: divin/urusai
